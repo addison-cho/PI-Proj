@@ -1,4 +1,5 @@
 # PI-Proj
 Raspberry PI Group Project with Lakshyaa, Guzal, and Bavya
 
-testing
+
+this is a readme
