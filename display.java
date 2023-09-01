@@ -21,5 +21,6 @@ public class display
         frame1.setVisible(true);
         
        
+       
     }
 }
