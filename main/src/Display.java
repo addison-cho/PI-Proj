@@ -1,8 +1,9 @@
+
 import javax.swing.JFrame;
 import java.awt.*;
 import objects;
 
-public class display
+public class Display
 {
    
     public static void main(String[] args) throws InterruptedException
