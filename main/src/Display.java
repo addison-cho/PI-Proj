@@ -1,7 +1,7 @@
 
 import javax.swing.JFrame;
 import java.awt.*;
-import objects;
+import Objects;
 
 public class Display
 {

@@ -5,7 +5,10 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import javax.swing.JComponent;
 
-public objects () {
+public class Objects{
+
+
+public Objects () {
     Thread t1 = new Thread(g1);
     t1.start();
 }
@@ -27,4 +30,5 @@ public void nextFrame()
 public void run()
 {
        
+}
 }
