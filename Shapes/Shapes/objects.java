@@ -5,6 +5,7 @@ import javax.swing.JPanel;
 
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.Graphics2D;
 
 public class objects extends JPanel {
 
@@ -17,6 +18,13 @@ public class objects extends JPanel {
 	}
 
 	public void paintComponent(Graphics g)
+	{
+		Graphics2D g2 = (Graphics2D) g;
+		draw(g2); 
+		
+	}
+
+	public void draw(Graphics g)
 	{
 		if (shape == "square"); 
 			this.setBackground(Color.WHITE); 
