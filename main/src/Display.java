@@ -1,11 +1,8 @@
 
 import javax.swing.JFrame;
 import java.awt.*;
-<<<<<<< Updated upstream
-import Objects;
-=======
 //import objects;
->>>>>>> Stashed changes
+
 
 public class Display
 {
