@@ -1,7 +1,11 @@
 
 import javax.swing.JFrame;
 import java.awt.*;
+<<<<<<< Updated upstream
 import Objects;
+=======
+//import objects;
+>>>>>>> Stashed changes
 
 public class Display
 {
@@ -17,8 +21,8 @@ public class Display
         frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         //holds all of my drawings
-        objects row1 = new objects();
-        frame1.add(row1);
+        //objects row1 = new objects();
+       // frame1.add(row1);
         frame1.setVisible(true);
         
        
