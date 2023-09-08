@@ -39,7 +39,7 @@ public class User {
                     height = scan.nextInt();
                     
                     // default placement would be center of the page
-                    rectangle x = rectangle(shape, width, height);
+                    // rectangle x = rectangle(shape, width, height);
                 }
                 else if (shape.equals("circle")) {
                     int radius = 1;
