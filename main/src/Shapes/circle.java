@@ -1,4 +1,5 @@
 package Shapes;
+import java.awt.Color;
 
 public class circle extends shapes_parent{
 
@@ -13,10 +14,16 @@ public class circle extends shapes_parent{
     }
     public circle(String name, int radius, int centerx, int centery)
     {
-        this.name = name; 
+        super(name); 
         this.radius = radius; 
         this.centerx = centerx;
         this.centery = centery;
     }
     
+    public void draw(Graphics g)
+	{ 
+		g.setColor(Color.BLUE);
+		g.drawOval(centerx, centery, radius, radius);
+	}
+
 }

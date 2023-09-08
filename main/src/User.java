@@ -3,6 +3,8 @@
 //import java.net.SocketPermission;
 import java.util.Scanner;
 
+import Shapes.objects;
+
 public class User {
     static Scanner scan = new Scanner(System.in);
 
@@ -23,7 +25,34 @@ public class User {
 
             }
             else if (ans == 3) {
-
+                String shape;
+                
+                System.out.println("Enter the shape you want to draw (rectangle, circle): "); 
+                shape = scan.nextLine(); 
+                if (shape.equals("rectangle"))
+                {
+                    int width, height;
+                    System.out.println("Enter the width: ");
+                    width = scan.nextInt(); 
+                    
+                    System.out.println("Enter the height: ");
+                    height = scan.nextInt();
+                    
+                    // default placement would be center of the page
+                    // rectangle x = rectangle(shape, width, height);
+                }
+                else if (shape.equals("circle")) {
+                    int radius = 1;
+                    int centerx = 0; 
+                    int centery = 0; 
+                    /*
+                    System.out.println("Enter the x-coordinate for the center: ");
+                    centerx = scan.nextInt();
+                    System.out.println("Enter the y-coordinate for the center: ");
+                    centery = scan.nextInt(); 
+                    */
+                }
+        }
             }
             else if (ans == 4) {
 

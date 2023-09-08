@@ -1,18 +1,35 @@
+package Shapes;
 import java.util.Scanner;
-import TurtleGraphics.Pen;
 
-public class objects {
-    Scanner scan = new Scanner(System.in);
-    private int radius = 1;
-    private int centerx = 0; 
-    private int centery = 0; 
-    public static voic main (String[] args){
-        System.out.println("Enter the x-coordinate for the center: ")
-        centerx = scan.nextInt();
-        System.out.println("Enter the y-coordinate for the center: ")
-        centery = scan.nextInt(); 
-    }
-    public void circle(Pen p){
+import javax.swing.JPanel;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
+public class objects extends JPanel {
+
+	String shape = " "; 
+	int length = 0; 
+	public objects(String shape, int length)
+	{
+		this.shape = shape; 
+		this.length = length; 
+	}
+
+	public void paintComponent(Graphics g)
+	{
+		Graphics2D g2 = (Graphics2D) g;
+		draw(g2); 
+		
+	}
+
+	public void draw(Graphics g){
+		this.setBackground(Color.WHITE);
+	}
+
+	/* 
+    public void circle(Pen p, centerx, centery){
         double side = 2.0 * Math.PI * radius / 120.0;
 		p.up();
 		p.move (centerx + radius, centery - side / 120.0);
@@ -24,4 +41,5 @@ public class objects {
 			p.turn(3);
 		}
     }
+	*/
 }

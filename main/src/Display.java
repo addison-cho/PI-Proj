@@ -1,5 +1,6 @@
 
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 import java.awt.*;
 //import Objects;
 //import objects;
@@ -10,6 +11,7 @@ public class Display
     public static void main(String[] args) throws InterruptedException
     {
         JFrame frame1 = new JFrame();
+        JPanel panel1 = new JPanel();
         
         //sets the size for width and height of the frame
         frame1.setSize(700, 485);
