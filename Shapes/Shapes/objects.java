@@ -24,17 +24,9 @@ public class objects extends JPanel {
 		
 	}
 
-	public void draw(Graphics g)
-	{
-		if (shape == "square"); 
-			this.setBackground(Color.WHITE); 
-
-			g.setColor(Color.BLUE);
-			g.drawLine(1, 1, 1+length, 1);
-			g.drawLine(1+length, 1, 1+length, 1+length);
-			g.drawLine(1+length, 1+length, 1, 1+length);
+	public void draw(Graphics g){
+		this.setBackground(Color.WHITE);
 	}
-	
 
 	/* 
     public void circle(Pen p, centerx, centery){
