@@ -13,7 +13,7 @@ public class circle extends shapes_parent{
     }
     public circle(String name, int radius, int centerx, int centery)
     {
-        this.name = name; 
+        super(name); 
         this.radius = radius; 
         this.centerx = centerx;
         this.centery = centery;
