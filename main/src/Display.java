@@ -1,7 +1,7 @@
 
 import javax.swing.JFrame;
 import java.awt.*;
-import Objects;
+//import Objects;
 //import objects;
 
 public class Display
@@ -16,6 +16,7 @@ public class Display
         frame1.setTitle("Graphing user interface");
         frame1.setBackground(new Color(200, 200, 200));
         frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame1.setLayout(new GridLayout(5, 5, 5, 5));
         
         //holds all of my drawings
         //objects row1 = new objects();
