@@ -1,6 +1,6 @@
 
 // manages interactions with the user
-import java.net.SocketPermission;
+//import java.net.SocketPermission;
 import java.util.Scanner;
 import java.util.ArrayList;
 

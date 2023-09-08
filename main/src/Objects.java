@@ -5,6 +5,8 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import javax.swing.JComponent;
 
+//this file does not work right now 
+
 public class Objects{
     public static void main (String[] args){
 
@@ -20,7 +22,7 @@ public class Objects{
         Graphics2D page = (Graphics2D) g;
         
         //draws ground
-        g1.draw(page);
+        g.draw(page);
     }
 
 
