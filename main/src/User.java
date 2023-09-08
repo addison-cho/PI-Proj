@@ -2,6 +2,7 @@
 // manages interactions with the user
 import java.net.SocketPermission;
 import java.util.Scanner;
+import java.util.ArrayList;
 
 import Shapes.objects;
 
@@ -9,8 +10,11 @@ public class User {
     static Scanner scan = new Scanner(System.in);
 
     public static void main (String[] args) {
+        // 
         int ans = 0;
-    
+        // list of objects to be displayed
+        Arraylist<objects> obj = new ArrayList<objects>();
+
         while (!(ans == 6)) {
             ans = 0;
             menu();
@@ -19,12 +23,13 @@ public class User {
             System.out.println("\n");
 
             if (ans == 1) {
-
+                // display toString of objs
             }
             else if (ans == 2) {
-
+                // potentially edit details of obj
             }
             else if (ans == 3) {
+                // add and customize objs
                 String shape;
                 
                 System.out.println("Enter the shape you want to draw (rectangle, circle): "); 
@@ -55,10 +60,10 @@ public class User {
         }
             }
             else if (ans == 4) {
-
+                // remove an element from obj
             }
             else if (ans == 5) {
-
+                // display graph and shapes
             }
             else if (ans == 6) {
                 System.out.println("Thanks for using our scuffed program. Have a good day!\n");
