@@ -14,7 +14,7 @@ public class objects_main {
 
     
     public static void main (String[] args){
-         System.out.println("Enter the shape you want to draw: "); 
+        System.out.println("Enter the shape you want to draw: "); 
         shape = scan.nextLine(); 
         if (shape.equals("square"))
         {

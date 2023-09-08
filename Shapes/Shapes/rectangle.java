@@ -1,13 +1,15 @@
 import java.awt.Color;
 package Shapes;
 
-public class square extends shapes_parent {
+public class rectangle extends shapes_parent {
 
-    private int length = 0; 
+    private int width, height; 
     private String name = " "; 
 
-    public square(String name, int length) {
+    public square(String name, int width, height) {
         super(name);
+        this.width = width;
+        this.height = height;
         
     }
 
