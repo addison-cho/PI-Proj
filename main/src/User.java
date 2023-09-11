@@ -13,14 +13,14 @@ public class User {
         // 
         int ans = 0;
         // list of objects to be displayed
-        Arraylist<objects> obj = new ArrayList<objects>();
+        ArrayList <objects> obj = new ArrayList<objects>();
 
         while (!(ans == 6)) {
             ans = 0;
             menu();
             System.out.println("Enter your choice: ");
             ans = scan.nextInt();
-            System.out.println("\n");
+            System.out.println("\n");S
 
             if (ans == 1) {
                 // display toString of objs
@@ -57,7 +57,9 @@ public class User {
                     centery = scan.nextInt(); 
                     */
                 }
-        }
+                else {
+                    System.out.println("Invalid");
+                }
             }
             else if (ans == 4) {
                 // remove an element from obj
